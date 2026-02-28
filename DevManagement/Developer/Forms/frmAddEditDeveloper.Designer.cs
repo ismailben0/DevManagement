@@ -43,11 +43,9 @@
             // 
             this.txtFirstName.BaseColor = System.Drawing.Color.White;
             this.txtFirstName.BorderColor = System.Drawing.Color.Silver;
-            this.txtFirstName.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtFirstName.FocusedBaseColor = System.Drawing.Color.White;
             this.txtFirstName.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtFirstName.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtFirstName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtFirstName.Location = new System.Drawing.Point(86, 222);
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.PasswordChar = '\0';
@@ -79,11 +77,9 @@
             // 
             this.txtLastName.BaseColor = System.Drawing.Color.White;
             this.txtLastName.BorderColor = System.Drawing.Color.Silver;
-            this.txtLastName.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtLastName.FocusedBaseColor = System.Drawing.Color.White;
             this.txtLastName.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtLastName.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtLastName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtLastName.Location = new System.Drawing.Point(86, 304);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.PasswordChar = '\0';
@@ -105,11 +101,9 @@
             // 
             this.txtEmail.BaseColor = System.Drawing.Color.White;
             this.txtEmail.BorderColor = System.Drawing.Color.Silver;
-            this.txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtEmail.FocusedBaseColor = System.Drawing.Color.White;
             this.txtEmail.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtEmail.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtEmail.Location = new System.Drawing.Point(86, 384);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.PasswordChar = '\0';
@@ -129,7 +123,7 @@
             // 
             // lblTitle
             // 
-            this.lblTitle.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lblTitle.Location = new System.Drawing.Point(12, 9);
@@ -148,7 +142,6 @@
             this.btnSave.BorderColor = System.Drawing.Color.Black;
             this.btnSave.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnSave.FocusedColor = System.Drawing.Color.Empty;
-            this.btnSave.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnSave.ForeColor = System.Drawing.Color.White;
             this.btnSave.Image = null;
             this.btnSave.ImageSize = new System.Drawing.Size(20, 20);

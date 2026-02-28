@@ -17,7 +17,7 @@ namespace DevManagement
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmAddEditDeveloper(6));
+            Application.Run(new frmListOfDevelopers());
         }
     }
 }
