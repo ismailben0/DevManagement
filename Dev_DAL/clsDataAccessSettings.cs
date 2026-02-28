@@ -8,6 +8,6 @@ namespace Dev_DAL
 {
     static public class clsDataAccessSettings
     {
-        static public string ConnectionString = "Server=.;Database=DB_DevMg;User Id=sa;Password=sa123456;"
+        static public string ConnectionString = "Server=.;Database=DB_DevMg;User Id=sa;Password=sa123456;";
     }
 }
