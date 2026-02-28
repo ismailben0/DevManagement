@@ -1,0 +1,15 @@
+# Ignore Visual Studio temp files
+.vs/
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vscode/
+
+# Logs
+*.log
+
+# Publish output
+publish/
