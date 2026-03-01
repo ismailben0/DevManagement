@@ -62,6 +62,26 @@ namespace DevManagement.Developer.Forms
 
         private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            int DeveloperID = Convert.ToInt32(dgvDevelopers.CurrentRow.Cells["DeveloperID"].Value);
+
+            if (MessageBox.Show("Are you sure you want to delete this developer?", "Confirm Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                bool isDeleted = clsDeveloper.DeleteByID(DeveloperID);
+                if (isDeleted)
+                {
+                    MessageBox.Show("Developer deleted successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    frmListOfDevelopers_Load(null, null);
+                }
+                else
+                {
+                    MessageBox.Show("Failed to delete the developer.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Delete operation cancelled.", "Cancelled", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
 
         }
 
